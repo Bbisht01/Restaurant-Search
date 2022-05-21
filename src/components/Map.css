@@ -1,0 +1,61 @@
+.searchInput{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+.searchDiv{
+ border: 1px solid grey;
+ background-color: white;
+ color: black;
+ width: 30%;
+ position: absolute;
+ top: 10px;
+ z-index: 2;
+}
+.pastRestaurant{
+    width: 300px;
+    max-height: 500px;
+    overflow:auto;
+    display: flex;   
+    flex-direction: column; 
+    gap: 10px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: white;
+    top: 100px;
+    left: 20px;
+    /* justify-content: flex-end;
+    align-items: flex-end;     */
+
+}
+ .pastRestaurant::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+
+.pastRestaurant::-webkit-scrollbar-thumb {
+    background-color: rgba(206, 127, 205, 0.614);
+    border-radius: 10px;
+     /* outline: 1px solid slategrey; */
+ }   
+
+  
+.innerDiv  {
+    border: 1px solid #adabab;
+    width: 100%;
+    text-align: left;
+    color: rgb(210, 121, 210);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.locIcon{
+    font-size: 30px;
+}
